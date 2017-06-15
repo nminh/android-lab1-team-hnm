@@ -16,5 +16,29 @@
         android:layout_marginTop="64dp"
         />
     
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLogo"
+        android:layout_marginLeft="@dimen/space_extra_large"
+        android:layout_marginRight="@dimen/space_extra_large"
+        android:textSize="@dimen/size_normal"
+        android:hint="@string/email"
+        android:id="@+id/edtEmail"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEmail"
+        android:textSize="@dimen/size_normal"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_marginLeft="@dimen/space_extra_large"
+        android:layout_marginRight="@dimen/space_extra_large"
+        android:id="@+id/edtPassword"
+        />
+    
     
 </RelativeLayout>
