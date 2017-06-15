@@ -54,5 +54,27 @@
         android:fadingEdgeLength="15dp"
         android:padding="@dimen/space_normal"
         android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/tvForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/space_normal"
+        android:text="@string/forgot_password"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/btnLogin"
+        />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_normal"
+        />
     
 </RelativeLayout>
