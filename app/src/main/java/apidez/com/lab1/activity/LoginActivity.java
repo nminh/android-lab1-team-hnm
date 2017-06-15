@@ -1,5 +1,6 @@
 package apidez.com.lab1.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
-                                            Toast.makeText(LoginActivity.this , "Succes", Toast.LENGTH_SHORT).show();
+                                            startActivity(new Intent(LoginActivity.this, StreamActivity.class));
                                         }
                                     }
         );
