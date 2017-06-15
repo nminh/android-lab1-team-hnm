@@ -39,6 +39,20 @@
         android:layout_marginRight="@dimen/space_extra_large"
         android:id="@+id/edtPassword"
         />
-    
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginLeft="@dimen/space_extra_large"
+        android:layout_marginRight="@dimen/space_extra_large"
+        android:layout_marginTop="@dimen/space_normal"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="@string/login"
+        android:fadingEdgeLength="15dp"
+        android:padding="@dimen/space_normal"
+        android:textAllCaps="true" />
     
 </RelativeLayout>
